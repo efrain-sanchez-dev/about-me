@@ -1,0 +1,18 @@
+What AI tool did you use (ChatGPT or Claude)?
+ChatGPT
+
+What was your initial prompt? (Copy and paste it)
+Create an 'About Me' section for a portfolio website using HTML and It should include:
+- A profile photo on the left (use a placeholder image for now)
+- My name as a heading
+- A short bio paragraph
+- A list of 4 skills displayed as tags/badges
+- Use "lorem ipsum" instead of my information and I can enter that in later.
+
+How many total prompts did you use? (Approximately)
+Only One
+
+What customizations did you make to the design?
+
+
+What's one thing the AI code taught you about HTML or CSS?
