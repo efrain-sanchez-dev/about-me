@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+
+  <style>
+    /* Reset default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body styling with light background */
+    body {
+      background-color: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    /* Main container for About section */
+    .about-container {
+      display: flex; /* Side-by-side layout */
+      align-items: center;
+      gap: 30px;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px; /* Rounded corners for modern look */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    /* Profile image styling */
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Circular image */
+      object-fit: cover; /* Prevent image distortion */
+    }
+
+    /* Text content container */
+    .about-content {
+      flex: 1; /* Take remaining space */
+    }
+
+    /* Name heading */
+    .about-content h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Bio paragraph */
+    .about-content p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    /* Skills container */
+    .skills {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping to next line */
+      gap: 10px;
+    }
+
+    /* Individual skill badge */
+    .skill {
+      background-color: #e3ecff;
+      color: #3366ff;
+      padding: 6px 12px;
+      border-radius: 999px; /* Pill shape */
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 600px) {
+      .about-container {
+        flex-direction: column; /* Stack vertically */
+        text-align: center;
+      }
+
+      .profile-img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-container">
+    <!-- Profile Image -->
+    <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-img">
+
+    <!-- About Content -->
+    <div class="about-content">
+      <h1>Lorem Ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+
+      <!-- Skills List -->
+      <div class="skills">
+        <span class="skill">Lorem</span>
+        <span class="skill">Ipsum</span>
+        <span class="skill">Dolor</span>
+        <span class="skill">Sit</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
