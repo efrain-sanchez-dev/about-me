@@ -13,6 +13,7 @@ How many total prompts did you use? (Approximately)
 Only One
 
 What customizations did you make to the design?
-
+The text 
 
 What's one thing the AI code taught you about HTML or CSS?
+It for some random it combine the two which makes no sense.
